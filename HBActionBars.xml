@@ -1,0 +1,133 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.blizzard.com/wow/ui/\FrameXML\UI.xsd">
+  <Script file="HBActionBars.lua"/>
+  <Script file="HBActionBars_Menu.lua"/>
+  <CheckButton name="HBActionBarsButtonTemplate" virtual="true">
+    <Size>
+      <AbsDimension x="36" y="36"/>
+    </Size>
+    <Layers>
+      <Layer level="BACKGROUND">
+        <Texture name="$parentGrid">
+          <Color r="0" g="0" b="0" a="0.5"/>
+        </Texture>
+      </Layer>
+      <Layer level="ARTWORK">
+        <Texture name="$parentIcon">
+          <TexCoords left="0.08" right="0.92" top="0.08" bottom="0.92" />
+        </Texture>
+      </Layer>
+      <Layer level="OVERLAY">
+        <Texture name="$parentFlash" alphaMode="ADD" hidden="true">
+          <Color r="0.5" g="0" b="0"/>
+        </Texture>
+        <FontString name="$parentHotKey" inherits="NumberFontNormal" justifyH="RIGHT">
+          <Size>
+            <AbsDimension x="36" y="18"/>
+          </Size>
+          <Anchors>
+            <Anchor point="TOPLEFT">
+              <Offset>
+                <AbsDimension x="0" y="2"/>
+              </Offset>
+            </Anchor>
+          </Anchors>
+        </FontString>
+        <FontString name="$parentCount" inherits="NumberFontNormal" justifyH="RIGHT">
+          <Anchors>
+            <Anchor point="BOTTOMRIGHT">
+              <Offset>
+                <AbsDimension x="0" y="-2"/>
+              </Offset>
+            </Anchor>
+          </Anchors>
+        </FontString>
+        <FontString name="$parentEquipped" inherits="NumberFontNormal" justifyH="LEFT">
+          <Anchors>
+            <Anchor point="BOTTOMLEFT">
+              <Offset>
+                <AbsDimension x="0" y="-2"/>
+              </Offset>
+            </Anchor>
+          </Anchors>
+        </FontString>
+        <FontString name="$parentName" inherits="GameFontHighlightSmall">
+          <Size>
+            <AbsDimension x="36" y="10"/>
+          </Size>
+          <Anchors>
+            <Anchor point="CENTER">
+              <Offset>
+                <AbsDimension x="0" y="0"/>
+              </Offset>
+            </Anchor>
+          </Anchors>
+        </FontString>
+        <FontString name="$parentButtonID" inherits="NumberFontNormal" hidden="true">
+          <Anchors>
+            <Anchor point="TOPLEFT"/>
+          </Anchors>
+        </FontString>
+        <Texture name="$parentBorder"/>
+      </Layer>
+    </Layers>
+    <Frames>
+      <Model name="$parentCooldown" inherits="CooldownFrameTemplate" scale="0.8" >
+        <Scripts>
+          <OnLoad>HBActionBars:Cooldown_OnLoad(this)</OnLoad>
+        </Scripts>
+      </Model>
+    </Frames>
+    <NormalTexture name="$parentNormalTexture"/>
+    <HighlightTexture alphaMode="ADD">
+      <Color r="0.2" g="0.2" b="0.5"/>
+    </HighlightTexture>
+    <PushedTexture file="Interface\AddOns\HBActionBars\highlight"/>
+    <CheckedTexture file="Interface\AddOns\HBActionBars\highlight"/>
+    <Scripts>
+      <OnLoad>HBActionBars:ActionButton_OnLoad()</OnLoad>
+      <OnEvent>ActionButton_OnEvent(event)</OnEvent>
+      <OnClick>HBActionBars:ActionButton_OnClick()</OnClick>
+      <OnDragStart>HBActionBars:ActionButton_Drag(true)</OnDragStart>
+      <OnReceiveDrag>HBActionBars:ActionButton_Drag()</OnReceiveDrag>
+      <OnEnter>ActionButton_SetTooltip()</OnEnter>
+      <OnLeave>this.updateTooltip = nil GameTooltip:Hide()</OnLeave>
+      <OnUpdate>ActionButton_OnUpdate(arg1)</OnUpdate>
+      <OnShow>ActionButton_Update()</OnShow>
+    </Scripts>
+  </CheckButton>
+  <Frame name="HBActionBarTemplate" virtual="true">
+    <Frames>
+      <CheckButton name="$parentButton1" inherits="HBActionBarsButtonTemplate" id="1"/>
+      <CheckButton name="$parentButton2" inherits="HBActionBarsButtonTemplate" id="2"/>
+      <CheckButton name="$parentButton3" inherits="HBActionBarsButtonTemplate" id="3"/>
+      <CheckButton name="$parentButton4" inherits="HBActionBarsButtonTemplate" id="4"/>
+      <CheckButton name="$parentButton5" inherits="HBActionBarsButtonTemplate" id="5"/>
+      <CheckButton name="$parentButton6" inherits="HBActionBarsButtonTemplate" id="6"/>
+      <CheckButton name="$parentButton7" inherits="HBActionBarsButtonTemplate" id="7"/>
+      <CheckButton name="$parentButton8" inherits="HBActionBarsButtonTemplate" id="8"/>
+      <CheckButton name="$parentButton9" inherits="HBActionBarsButtonTemplate" id="9"/>
+      <CheckButton name="$parentButton10" inherits="HBActionBarsButtonTemplate" id="10"/>
+      <CheckButton name="$parentButton11" inherits="HBActionBarsButtonTemplate" id="11"/>
+      <CheckButton name="$parentButton12" inherits="HBActionBarsButtonTemplate" id="12"/>
+    </Frames>
+  </Frame>
+  <Frame name="HBActionBarAnchor" hidden="true" virtual="true">
+    <Size>
+      <AbsDimension x="36" y="36"/>
+    </Size>
+    <Layers>
+      <Layer level="OVERLAY">
+        <FontString name="$parentLabel" inherits="ChatFontNormal">
+          <Anchors>
+            <Anchor point="BOTTOMLEFT" relativePoint="TOPLEFT"/>
+          </Anchors>
+        </FontString>
+      </Layer>
+      <Layer level="BACKGROUND">
+        <Texture name="$parentTexture" frameStrata="LOW">
+          <Color r="0" g="0" b="0" a="0.5"/>
+        </Texture>
+      </Layer >
+    </Layers>
+  </Frame>
+</Ui>

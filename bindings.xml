@@ -1,0 +1,66 @@
+<Bindings>
+	<Binding name="EXTRABAR1BUTTON1" runOnUp="true" header="HBACTIONBARS">HBActionBars:OnHotkey(ExtraBar1,1)</Binding>
+	<Binding name="EXTRABAR1BUTTON2" runOnUp="true">HBActionBars:OnHotkey(ExtraBar1,2)</Binding>
+	<Binding name="EXTRABAR1BUTTON3" runOnUp="true">HBActionBars:OnHotkey(ExtraBar1,3)</Binding>
+	<Binding name="EXTRABAR1BUTTON4" runOnUp="true">HBActionBars:OnHotkey(ExtraBar1,4)</Binding>
+	<Binding name="EXTRABAR1BUTTON5" runOnUp="true">HBActionBars:OnHotkey(ExtraBar1,5)</Binding>
+	<Binding name="EXTRABAR1BUTTON6" runOnUp="true">HBActionBars:OnHotkey(ExtraBar1,6)</Binding>
+	<Binding name="EXTRABAR1BUTTON7" runOnUp="true">HBActionBars:OnHotkey(ExtraBar1,7)</Binding>
+	<Binding name="EXTRABAR1BUTTON8" runOnUp="true">HBActionBars:OnHotkey(ExtraBar1,8)</Binding>
+	<Binding name="EXTRABAR1BUTTON9" runOnUp="true">HBActionBars:OnHotkey(ExtraBar1,9)</Binding>
+	<Binding name="EXTRABAR1BUTTON10" runOnUp="true">HBActionBars:OnHotkey(ExtraBar1,10)</Binding>
+	<Binding name="EXTRABAR1BUTTON11" runOnUp="true">HBActionBars:OnHotkey(ExtraBar1,11)</Binding>
+	<Binding name="EXTRABAR1BUTTON12" runOnUp="true">HBActionBars:OnHotkey(ExtraBar1,12)</Binding>
+  
+	<Binding name="EXTRABAR2BUTTON1" runOnUp="true" header=" ">HBActionBars:OnHotkey(ExtraBar2,1)</Binding>
+	<Binding name="EXTRABAR2BUTTON2" runOnUp="true">HBActionBars:OnHotkey(ExtraBar2,2)</Binding>
+	<Binding name="EXTRABAR2BUTTON3" runOnUp="true">HBActionBars:OnHotkey(ExtraBar2,3)</Binding>
+	<Binding name="EXTRABAR2BUTTON4" runOnUp="true">HBActionBars:OnHotkey(ExtraBar2,4)</Binding>
+	<Binding name="EXTRABAR2BUTTON5" runOnUp="true">HBActionBars:OnHotkey(ExtraBar2,5)</Binding>
+	<Binding name="EXTRABAR2BUTTON6" runOnUp="true">HBActionBars:OnHotkey(ExtraBar2,6)</Binding>
+	<Binding name="EXTRABAR2BUTTON7" runOnUp="true">HBActionBars:OnHotkey(ExtraBar2,7)</Binding>
+	<Binding name="EXTRABAR2BUTTON8" runOnUp="true">HBActionBars:OnHotkey(ExtraBar2,8)</Binding>
+	<Binding name="EXTRABAR2BUTTON9" runOnUp="true">HBActionBars:OnHotkey(ExtraBar2,9)</Binding>
+	<Binding name="EXTRABAR2BUTTON10" runOnUp="true">HBActionBars:OnHotkey(ExtraBar2,10)</Binding>
+	<Binding name="EXTRABAR2BUTTON11" runOnUp="true">HBActionBars:OnHotkey(ExtraBar2,11)</Binding>
+	<Binding name="EXTRABAR2BUTTON12" runOnUp="true">HBActionBars:OnHotkey(ExtraBar2,12)</Binding>
+  
+	<Binding name="EXTRABAR3BUTTON1" runOnUp="true" header="  ">HBActionBars:OnHotkey(ExtraBar3,1)</Binding>
+	<Binding name="EXTRABAR3BUTTON2" runOnUp="true">HBActionBars:OnHotkey(ExtraBar3,2)</Binding>
+	<Binding name="EXTRABAR3BUTTON3" runOnUp="true">HBActionBars:OnHotkey(ExtraBar3,3)</Binding>
+	<Binding name="EXTRABAR3BUTTON4" runOnUp="true">HBActionBars:OnHotkey(ExtraBar3,4)</Binding>
+	<Binding name="EXTRABAR3BUTTON5" runOnUp="true">HBActionBars:OnHotkey(ExtraBar3,5)</Binding>
+	<Binding name="EXTRABAR3BUTTON6" runOnUp="true">HBActionBars:OnHotkey(ExtraBar3,6)</Binding>
+	<Binding name="EXTRABAR3BUTTON7" runOnUp="true">HBActionBars:OnHotkey(ExtraBar3,7)</Binding>
+	<Binding name="EXTRABAR3BUTTON8" runOnUp="true">HBActionBars:OnHotkey(ExtraBar3,8)</Binding>
+	<Binding name="EXTRABAR3BUTTON9" runOnUp="true">HBActionBars:OnHotkey(ExtraBar3,9)</Binding>
+	<Binding name="EXTRABAR3BUTTON10" runOnUp="true">HBActionBars:OnHotkey(ExtraBar3,10)</Binding>
+	<Binding name="EXTRABAR3BUTTON11" runOnUp="true">HBActionBars:OnHotkey(ExtraBar3,11)</Binding>
+	<Binding name="EXTRABAR3BUTTON12" runOnUp="true">HBActionBars:OnHotkey(ExtraBar3,12)</Binding>
+  
+	<Binding name="EXTRABAR4BUTTON1" runOnUp="true" header="   ">HBActionBars:OnHotkey(ExtraBar4,1)</Binding>
+	<Binding name="EXTRABAR4BUTTON2" runOnUp="true">HBActionBars:OnHotkey(ExtraBar4,2)</Binding>
+	<Binding name="EXTRABAR4BUTTON3" runOnUp="true">HBActionBars:OnHotkey(ExtraBar4,3)</Binding>
+	<Binding name="EXTRABAR4BUTTON4" runOnUp="true">HBActionBars:OnHotkey(ExtraBar4,4)</Binding>
+	<Binding name="EXTRABAR4BUTTON5" runOnUp="true">HBActionBars:OnHotkey(ExtraBar4,5)</Binding>
+	<Binding name="EXTRABAR4BUTTON6" runOnUp="true">HBActionBars:OnHotkey(ExtraBar4,6)</Binding>
+	<Binding name="EXTRABAR4BUTTON7" runOnUp="true">HBActionBars:OnHotkey(ExtraBar4,7)</Binding>
+	<Binding name="EXTRABAR4BUTTON8" runOnUp="true">HBActionBars:OnHotkey(ExtraBar4,8)</Binding>
+	<Binding name="EXTRABAR4BUTTON9" runOnUp="true">HBActionBars:OnHotkey(ExtraBar4,9)</Binding>
+	<Binding name="EXTRABAR4BUTTON10" runOnUp="true">HBActionBars:OnHotkey(ExtraBar4,10)</Binding>
+	<Binding name="EXTRABAR4BUTTON11" runOnUp="true">HBActionBars:OnHotkey(ExtraBar4,11)</Binding>
+	<Binding name="EXTRABAR4BUTTON12" runOnUp="true">HBActionBars:OnHotkey(ExtraBar4,12)</Binding>
+
+	<Binding name="MAINBAR2BUTTON1" runOnUp="true" header="    ">HBActionBars:OnHotkey(MainBar2,1)</Binding>
+	<Binding name="MAINBAR2BUTTON2" runOnUp="true">HBActionBars:OnHotkey(MainBar2,2)</Binding>
+	<Binding name="MAINBAR2BUTTON3" runOnUp="true">HBActionBars:OnHotkey(MainBar2,3)</Binding>
+	<Binding name="MAINBAR2BUTTON4" runOnUp="true">HBActionBars:OnHotkey(MainBar2,4)</Binding>
+	<Binding name="MAINBAR2BUTTON5" runOnUp="true">HBActionBars:OnHotkey(MainBar2,5)</Binding>
+	<Binding name="MAINBAR2BUTTON6" runOnUp="true">HBActionBars:OnHotkey(MainBar2,6)</Binding>
+	<Binding name="MAINBAR2BUTTON7" runOnUp="true">HBActionBars:OnHotkey(MainBar2,7)</Binding>
+	<Binding name="MAINBAR2BUTTON8" runOnUp="true">HBActionBars:OnHotkey(MainBar2,8)</Binding>
+	<Binding name="MAINBAR2BUTTON9" runOnUp="true">HBActionBars:OnHotkey(MainBar2,9)</Binding>
+	<Binding name="MAINBAR2BUTTON10" runOnUp="true">HBActionBars:OnHotkey(MainBar2,10)</Binding>
+	<Binding name="MAINBAR2BUTTON11" runOnUp="true">HBActionBars:OnHotkey(MainBar2,11)</Binding>
+	<Binding name="MAINBAR2BUTTON12" runOnUp="true">HBActionBars:OnHotkey(MainBar2,12)</Binding>
+</Bindings>
